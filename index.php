@@ -81,10 +81,13 @@ while($qtd_jogos > 0){
 	*{
 		font-size: 18px;
 		font-weight: bold;
+		text-align: center;
 	}
 	.red{
 		background-color: black;
-		color: white;
+		color: red;
+		text-decoration: underline;
+		text-align: center;
 	}
     </style>
   </head>

@@ -252,6 +252,9 @@ $jogosRealizados[] = $p;
 		font-weight: bold;
 		text-align: center;
 	}
+    table{
+        margin: 0 auto;
+    }
 	.red{
 		background-color: black;
 		color: red;
@@ -262,9 +265,10 @@ $jogosRealizados[] = $p;
   </head>
   <body>
 		<?php
-		foreach($jogosRealizados as $jogo){
+		foreach($jogosRealizados as $key=> $jogo){
 		?>
-        <table class="table table-bordered table-striped">
+        <h3>Padrão #<?=($key + 1); ?> </h3>
+        <table border="1" class="">
             <tr>
             <?php
                 for($i = 1; $i<=25; $i++){

@@ -5,17 +5,6 @@ $numeros = [];
 for($i=1; $i<=25; $i++){
 	$numeros[] = $i;
 }
-//###loto facil ##//
-//metodo 1
-//padrão 1 - 1 ao 12 excluir 4 dezenas e 13 ao 25 excluir 6 - jogar o restante que sobrou
-//padrao 2 - 1 ao 12 excluir 6 dezenas e 13 ao 25 excluir 4 - jogar o restante que sobrou
-//padrão 3 - 1 ao 12 excluir 3 dezenas e 13 ao 25 excluir 7 - jogar o restante que sobrou
-//padrao 4 - 1 ao 12 excluir 7 numeros e 13 ao 25 excluir 3 - jogar o restante que sobrou
-//padrão 5 - 1 ao 12 excluir 5 numeros e 13 ao 25 excluir 5 - jogar o restante que sobrou
-
-/*
-######################################### metodo 2 ##############################################
-*/
 
 $qtd_jogos = 4;
 

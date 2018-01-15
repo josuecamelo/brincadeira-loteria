@@ -61,11 +61,11 @@ while($qtd_jogos > 0){
 	asort($numeros_marcar);
 	$string_final = "";
 	foreach($numeros_marcar as $num){
-		//$string_final .=  "[ ".str_pad($num, 2, "0", STR_PAD_LEFT ). " ]   ";
+		$string_final .=  "[  ".str_pad($num, 2, "0", STR_PAD_LEFT ). "  ]      ";
 		$jogosRealizados[$qtd_jogos][] = $num; 
 	}
 
-	//echo $string_final."<br /><br />";
+	echo $string_final."<br /><br />";
 
 	$qtd_jogos--; 
 }
@@ -97,7 +97,7 @@ while($qtd_jogos > 0){
 		foreach($jogosRealizados as $jogo){
 		?>
 		<div class="col-md-2">
-			<table border="1" class="table table-bordered table-striped">
+			<table class="table table-bordered table-striped">
 				<tr>
 				<?php
 					for($i = 1; $i<=25; $i++){
